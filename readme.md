@@ -48,7 +48,7 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 ## Protocol Requirements
 
-**- STATEFUL:** The client and server maintain state by tracking user sessions and managing join/leave events, ensuring reliable communication and session management.
+**STATEFUL:** The client and server maintain state by tracking user sessions and managing join/leave events, ensuring reliable communication and session management.
 
 **SERVICE:** The server binds to a default port number (4242), with the client defaulting to this port, configurable via command line arguments for flexibility.
 
