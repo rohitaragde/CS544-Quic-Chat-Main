@@ -45,6 +45,19 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 - **Initial Handshake and Message Exchange:** Clients can send chat messages to the server, and the server broadcasts these messages to all connected clients. This ensures real-time communication among all participants in the chat room
 
+
+## Protocol Requirements
+
+**- STATEFUL:** The client and server maintain state by tracking user sessions and managing join/leave events, ensuring reliable communication and session management.
+
+**SERVICE:** The server binds to a default port number (4242), with the client defaulting to this port, configurable via command line arguments for flexibility.
+
+**CLIENT:** The client allows specifying the server's hostname or IP address through command line arguments, ensuring adaptability to different network configurations.
+
+**SERVER:** The server configuration, including certificate file, key file, address, and port, is provided via command line arguments, avoiding hard-coded values and enhancing configurability.
+
+**UI:** The client uses a command line interface, encapsulating the protocol logic and providing a user-friendly experience without exposing protocol commands to the user.
+
   
 
 
