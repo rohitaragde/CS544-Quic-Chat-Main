@@ -52,6 +52,10 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 ## States of the DFA:
 
+  - **Initial State:** The client sends a "hello" message to the server.
+  - **Waiting for Server Response:** The server responds with a welcome message and user join notification.
+  - **Waiting for Client Message:** The client sends their chat message.
+
 **Initial State:** The client sends a "hello" message to the server.
 **Waiting for Server Response:** The server responds with a welcome message and user join notification.
 **Waiting for Client Message:** The client sends their chat message.
