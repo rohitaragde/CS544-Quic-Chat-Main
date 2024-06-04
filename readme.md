@@ -5,7 +5,7 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 ## Team Members
 - Rohit Annasaheb Ragde rar369@drexel.edu
-- Disha Yadav dcy26@drexel.edu
+- Disha Yadav           dcy26@drexel.edu
 
 
 
