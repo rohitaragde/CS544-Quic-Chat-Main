@@ -99,6 +99,19 @@ The client can specify the server's hostname or IP address via command line argu
 - **CertFile:** Path to the certificate file.
 - **Username:** Username for the chat.
 
+## Initial Configuration in Echo
+
+### Server Parameters
+- **PORT_NUMBER:** 4242
+- **SERVER_IP:** "0.0.0.0"
+
+### Client Parameters
+- **SERVER_ADDR:** "localhost"
+
+## Command Line Output
+With the command line, the user enters their messages, and the application processes and displays them.
+
+
 
 
 
