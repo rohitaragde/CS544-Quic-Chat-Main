@@ -1,4 +1,4 @@
-## Simple Go Echo Demo using QUIC
+## Student Collaboration Chat Protocol Implementation using QUIC in GO
 
 There is a single binary that is used to run both the client and the server
 
