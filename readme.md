@@ -111,6 +111,12 @@ The client can specify the server's hostname or IP address via command line argu
 ## Command Line Output
 With the command line, the user enters their messages, and the application processes and displays them.
 
+## Running the Application
+There is a single binary that is used to run both the client and the server:
+
+- **Server:** `go run cmd/echo/echo.go -server`
+- **Client:** `go run cmd/echo/echo.go -client -username "Rohit"`
+
 
 
 
