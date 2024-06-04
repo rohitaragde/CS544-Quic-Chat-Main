@@ -82,18 +82,22 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 **Configuration & Implementation**
 
-**Server Configuration**: The server binds to a configurable port number, which can be specified via command line arguments. It uses the following settings:
-**GenTLS:** Flag to generate TLS config.
-**CertFile:** Path to the certificate file.
-**KeyFile:** Path to the key file.
-**Address:** Server address.
-**Port:** Server port.
+ **Server Configuration**
+The server binds to a configurable port number, which can be specified via command line arguments. It uses the following settings:
 
-**Client Configuration**: The client can specify the server's hostname or IP address via command line arguments. The configuration includes:
-**ServerAddr:** Server address.
-**PortNumber:** Server port.
-**CertFile:** Path to the certificate file.
-**Username:** Username for the chat.
+-- **GenTLS:** Flag to generate TLS config.
+-- **CertFile:** Path to the certificate file.
+-- **KeyFile:** Path to the key file.
+-- **Address:** Server address.
+-- **Port:** Server port.
+
+**Client Configuration**
+The client can specify the server's hostname or IP address via command line arguments. The configuration includes:
+
+-- **ServerAddr:** Server address.
+-- **PortNumber:** Server port.
+-- **CertFile:** Path to the certificate file.
+-- **Username:** Username for the chat.
 
 
 
