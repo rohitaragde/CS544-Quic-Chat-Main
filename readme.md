@@ -43,7 +43,7 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 #### Chat Messages from Client to Server
 
-- **Initial Handshake and Message Exchange:** Clients can send chat messages to the server. This is part of the initialization handshake, where the client sends a "hello from client" message. The server responds with a menu of video options for the client to choose from.
+- **Initial Handshake and Message Exchange:** Clients can send chat messages to the server, and the server broadcasts these messages to all connected clients. This ensures real-time communication among all participants in the chat room
 
   
 
