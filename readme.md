@@ -115,7 +115,7 @@ With the command line, the user enters their messages, and the application proce
 There is a single binary that is used to run both the client and the server:
 
 - **Server:** `go run cmd/echo/echo.go -server`
-- **Client:** `go run cmd/echo/echo.go -client -username "Rohit"`
+- **Client:** `go run cmd/echo/echo.go -client -username "Rohit" (you can specify any username)`
 
 
 
