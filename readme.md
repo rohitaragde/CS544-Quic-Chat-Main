@@ -1,13 +1,3 @@
 ## Student Collaboration Chat Protocol Implementation using QUIC in GO
 
-There is a single binary that is used to run both the client and the server
-
-- `server`: `go run cmd/echo/echo.go -server`
-- `client`: `go run cmd/echo/echo.go -client`
-- `help on all flags`: `go run cmd/echo/echo.go -help`
-
-The server will wait for a connection, just a simple echo.  This solution uses goroutines and is concurrent.
-
-There is also a pdu defined in the `pkg/pdu` package
-
-Solution derived from the excellent work of the `quic-go` team based on the example: https://github.com/quic-go/quic-go/tree/master/example/echo
+The Student Collaboration Chat Protocol Application is a network-based chat application designed to facilitate communication among students. It uses the QUIC protocol for secure, reliable communication and supports both server and client modes. This project is implemented in Go.
