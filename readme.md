@@ -51,11 +51,6 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 **STATEFUL:** Both the client and server implement a stateful protocol, ensuring that the protocol adheres to our deterministic finite automaton (DFA). This ensures that both ends of the communication can validate the state of the connection at any given time.
 
 ## States of the DFA:
-
-  - **Initial State:** The client sends a "hello" message to the server.
-  - **Waiting for Server Response:** The server responds with a welcome message and user join notification.
-  - **Waiting for Client Message:** The client sends their chat message.
-
 - **Initial State:** The client sends a "hello" message to the server.
 - **Waiting for Server Response:** The server responds with a welcome message and user join notification.
 - **Waiting for Client Message:** The client sends their chat message.
@@ -63,7 +58,6 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 - **Handling Controls:** The client sends control commands such as joining and leaving the chat.
 - **Error State:** If an error occurs, the connection logs the error and attempts to recover.
 - **Waiting for Acknowledgments:** The server waits for acknowledgments from the client to ensure message delivery.
-
 
 **SERVICE:** The server binds to a default port number (4242), with the client defaulting to this port, configurable via command line arguments for flexibility.
 
