@@ -67,6 +67,22 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 **UI:** The client uses a command line interface, encapsulating the protocol logic and providing a user-friendly experience without exposing protocol commands to the user.
 
+## Extra Credit Options Implemented
+**Concurrent or Asynchronous Server**: Our server implementation is capable of handling multiple clients concurrently using the quic-go library, which allows managing multiple streams over a single connection efficiently.
+
+**Using a Systems Programming Language**: This project is implemented in Go, a systems programming language, which adds complexity and robustness compared to using a high-level language.
+
+**Implementation Robustness**: We have implemented several features including real-time messaging, user management, TLS encryption, and error handling, demonstrating a robust and comprehensive solution beyond a basic prototype.
+
+**Working with a Cloud-Based Git System**: Our project is managed using GitHub, with regular commits and proper version control. 
+
+**A Short Video Demo Presentation Link**: 
+
+**Configuration & Implementation**
+
+
+
+
   
 
 
