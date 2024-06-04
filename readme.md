@@ -76,6 +76,8 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 **Working with a Cloud-Based Git System**: Our project is managed using GitHub, with regular commits and proper version control. 
 
+**Design Excellence**: We strive for high code quality with clear documentation, maintainability, and a clean project structure. The code is modular, well-documented, and follows best practices, making it easy to understand and extend
+
 **A Short Video Demo Presentation Link**: 
 
 **Configuration & Implementation**
