@@ -78,7 +78,10 @@ The Student Collaboration Chat Protocol Application is a network-based chat appl
 
 **Design Excellence**: We strive for high code quality with clear documentation, maintainability, and a clean project structure. The code is modular, well-documented, and follows best practices, making it easy to understand and extend
 
-**A Short Video Demo Presentation Link**: 
+**A Short Video Demo Presentation Link**: https://shorturl.at/wkyqj 
+https://1513041.mediaspace.kaltura.com/media/Student+Collaboration+Chat+Protocol+Implementation+in+QUIC+using+GO/1_ioeyoux9
+
+
 
 ## Configuration & Implementation
 
